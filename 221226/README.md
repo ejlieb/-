@@ -1,6 +1,6 @@
-# 백준 #21870
+# 백준 #26598
 
-https://www.acmicpc.net/problem/21870
+https://www.acmicpc.net/problem/26598
 
 1. BFS를 통해서 한 알파벳이 어디까지 이어지는 지 체크
 2. BFS를 돌리면서 알파벳으로 이루어진 영역의 최소, 최대 x, y좌표를 체크한 후 BFS가 종료되면 최소x,y부터 최대 x,y사이의 직사각형 영역에 다른 알파벳이 있나 체크

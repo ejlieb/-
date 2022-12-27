@@ -1,19 +1,3 @@
-# 백준 #14600
-
-https://www.acmicpc.net/problem/14600
-
-
-
-분할 정복과 구현 두가지 방법으로 풀 수 있을 듯 하다
-
-이 문제의 경우 K <=2 이기 때문에 구현으로 풀이하였으나 만약 K가 커진다면 정사각형을 4분할 하는 방식으로 분할정복 한다.
-
-
-
-1. K= 1 크기의 경우 1로 그리드를 채운 후 배수구 자라에만 -1을 넣는다
-2. K= 2 크기의 경우 2x2 짜리 정사각형 4개의 경우로 나눈 뒤, 중앙 자리에 배수구인 경우, 그 외 경우로 나누어 구현한다.
-
-```python
 K = int(input())
 hole_x, hole_y = list(map(int, input().split()))
 if K == 1:
@@ -59,5 +43,3 @@ for line in grid[::-1]:
     for tile in line:
         print(tile, end=' ')
     print('')
-```
-
